@@ -1,0 +1,160 @@
+/* soft reset */
+* {
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    font-size: 10px;
+}
+
+header {
+    align-items: center;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.356);
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+    padding: 10px 40px;
+    width: 100%;
+}
+
+.logo {
+    height: 100px;
+    width: 240px;
+}
+
+.logo img {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    display: flex;
+    margin: 0 5px;
+    padding: 10px;
+}
+
+nav ul li a {
+    color: rgb(16, 122, 122);
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: lowercase;
+}
+
+main {
+    border-top: 1px solid rgba(128, 128, 128, 0.445);
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+section {
+    align-items: center;
+    display: flex;
+    height: 280px;
+    width: 100%;
+}
+
+.banner-conteudo {
+    background-color: rgb(39, 153, 219);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px 60px 10px 30px;
+    height: 100%;
+    width: 40vw;
+}
+
+.banner-conteudo h2 {
+    font-size: 3.5em;
+    font-weight: bold;
+}
+
+.banner-conteudo p {
+    font-size: 3em;
+    font-weight: 400;
+}
+
+.banner-btn {
+    background-color: orangered;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-align: center;
+    height: 20%;
+    width: 100%;
+}
+
+.banner-btn a {
+    color: white;
+    font-size: 3em;
+    font-weight: 400;
+}
+
+.banner-img {
+    height: 100%;
+    width: 60vw;
+}
+
+.banner-img img {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 30px;
+    margin: 20px auto;
+    width: 100%;
+}
+
+.card-noticia {
+    height: 100%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 280px;
+}
+
+.card-noticia img {
+    display: block;
+    height: 40%;
+    width: 100%;
+}
+
+.card-noticia h2 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.card-noticia p {
+    font-size: 2em;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.card-noticia a {
+    color: orangered;
+    font-size: 1.5em;
+}
+
+@media (max-width: 780px) { 
+    .banner-conteudo {
+        font-size: .6em;
+        padding: 10px 30px 10px 20px;
+    }
+    .banner-btn {
+        padding: 10px 20px;
+        text-align: center;
+    }
+}
