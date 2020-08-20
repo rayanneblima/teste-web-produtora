@@ -158,3 +158,32 @@ article {
         text-align: center;
     }
 }
+
+@media (max-width: 630px) {
+    .logo {
+        width: 120px;
+    }
+}
+
+@media (max-width: 420px) {
+    header {
+        flex-direction: column;
+        height: 100%;
+    }
+    /* aplicar sanduiche */ 
+    
+    nav ul li {
+        margin: 0 2px;
+    }
+    section {
+        flex-direction: column;
+        height: 100%;
+    }
+    .banner-conteudo {
+        height: 160px;
+        width: 100vw;
+    }
+    .banner-img {
+        width: 100vw;
+    }
+}
